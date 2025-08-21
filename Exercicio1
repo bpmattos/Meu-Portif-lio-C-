@@ -1,0 +1,31 @@
+using System;
+
+namespace Exercicio1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // --- O NOSSO CÓDIGO DO EXERCÍCIO VAI AQUI DENTRO ---
+
+            //Declaração e inicialização das variáveis
+
+            string nomeCompleto = "Joyce Carvalho";
+            int idade = 26;
+            double alturaMetros = 1.67;
+            bool ehBolsista = true;
+
+            //Imprimindo as informações com interpolação de string
+
+            Console.WriteLine("--- Ficha de Inscrição ---");
+            Console.WriteLine($"Nome: {nomeCompleto}");
+            Console.WriteLine($"Idade: {idade} anos");
+            Console.WriteLine($"Altura: {alturaMetros}m");
+            Console.WriteLine($"É bolsista? {ehBolsista}");
+
+
+        }
+
+    }
+}
