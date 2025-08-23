@@ -1,0 +1,24 @@
+using System;
+
+namespace Biblioteca
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // 1. Armazenando os dados do livro em variáveis
+            string titulo = "O Senhor dos Anéis";
+            string autor = "J.R.R. Tolkien";
+            int numeroPaginas = 1224;
+            bool edicaoDeLuxo = false;
+
+            // 2. Montando e exibindo a ficha do livro
+            Console.WriteLine("--- Ficha Catalográfica ---");
+            Console.WriteLine($"Título: {titulo}");
+            Console.WriteLine($"Autor: {autor}");
+            Console.WriteLine($"Páginas: {numeroPaginas}");
+            Console.WriteLine($"Edição de Luxo: {edicaoDeLuxo}");
+        }
+    }
+}
