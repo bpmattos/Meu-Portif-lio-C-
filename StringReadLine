@@ -1,0 +1,23 @@
+using System;
+
+namespace StringReadLine
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // O que acontece com este código?
+            Console.Write("Digite o primeiro número: ");
+            string n1 = Console.ReadLine();
+
+            Console.Write("Digite o segundo número: ");
+            string n2 = Console.ReadLine();
+
+            Console.WriteLine($"A soma é: {n1 + n2}");
+            // Se digitarmos 2 e 2, o resultado será 22!
+
+        }
+
+    }
+}
