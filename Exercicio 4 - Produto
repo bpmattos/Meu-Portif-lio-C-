@@ -1,0 +1,29 @@
+using System;
+
+namespace Produto
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // 1. Declarando as variáveis com as informações de um produto real (PlayStation 5)
+            string nomeProduto = "PlayStation 5";
+            string marca = "Sony";
+            int anoLancamento = 2020;
+            double preco = 4499.90;
+            double avaliacao = 4.8; // Avaliação pode ter casas decimais, como 4.5 estrelas
+
+            // 2. Exibindo as informações de forma organizada no console
+            Console.WriteLine("--- Ficha Técnica do Produto ---");
+            Console.WriteLine("==============================");
+            Console.WriteLine($"Produto: {nomeProduto}");
+            Console.WriteLine($"Marca: {marca}");
+            Console.WriteLine($"Lançado em: {anoLancamento}");
+            Console.WriteLine($"Preço: R$ {preco}");
+            Console.WriteLine($"Avaliação: {avaliacao} de 5 estrelas");
+            Console.WriteLine("==============================");
+        }
+
+    }
+}
