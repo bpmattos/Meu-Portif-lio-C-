@@ -1,0 +1,22 @@
+using System;
+
+namespace Exercicio2
+{
+    class Program
+
+    {
+        static void Main(string[] args)
+        {
+
+            // 1. Declarando as variáveis para o cálculo
+            double salario = 5250.00;
+            double percentualBonus = 0.15; // 15% na forma decimal
+
+            // 2. Calculando o valor do bônus (salário * percentual)
+            double valorBonus = salario * percentualBonus;
+
+            // 3. Exibindo o resultado final
+            Console.WriteLine($"O bônus do funcionário é: R$ {valorBonus}");
+        }
+    }
+}
