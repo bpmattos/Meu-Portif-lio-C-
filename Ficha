@@ -1,0 +1,34 @@
+// Enunciado:Crie um programa que exiba uma ficha de inscrição com os seguintes dados:
+//Nome: Ana Silva
+//Idade: 22
+//Curso: Desenvolvimento de Sistemas
+//Número de Matrícula: 2023001
+//Use variáveis para armazenar cada informação e exiba tudo de forma organizada no console.
+
+using System;
+
+namespace Ficha
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            string nome = ("Ana Silva");
+            int idade = 22;
+            string curso = "Desenvolvimento de Sistemas";
+            string nMatricula = "2023001";
+
+            Console.WriteLine($"------------ FICHA DE INSCRIÇÃO -------------\n");
+
+            Console.WriteLine($"Nome:{nome}");
+            Console.WriteLine($"Idade: {idade}");
+            Console.WriteLine($"Curso: {curso}");
+            Console.WriteLine($"Número Matrícula: {nMatricula}");
+
+
+
+        }
+
+    }
+}
