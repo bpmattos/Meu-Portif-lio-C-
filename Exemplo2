@@ -1,0 +1,26 @@
+using System;
+
+namespace Exercicios
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            double nota1 = 8.5;
+            double nota2 = 7.2;
+            double nota3 = 9.0;
+            double mediaNotas = (nota1 + nota2 + nota3)/3.0;
+
+            Console.WriteLine($"Nota 1: {nota1}");
+            Console.WriteLine($"Nota 2: {nota2}");
+            Console.WriteLine($"Nota 3: {nota3}");
+            Console.WriteLine($"A média das notas é: {mediaNotas}");
+
+
+
+
+
+        }
+    }
+}
