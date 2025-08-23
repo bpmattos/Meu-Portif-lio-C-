@@ -1,0 +1,24 @@
+using System;
+
+namespace Exercicio1
+{
+    class Program
+
+    {
+        static void Main(string[] args)
+        {
+
+            string nomeProduto = "Smart TV 50"; // A \
+            double precoProduto = 2499.90;
+            int quantidadeEstoque = 15;
+            bool estaEmPromocao = true;
+
+            // 2. Exibindo os detalhes de forma organizada
+            Console.WriteLine("--- Detalhes do Produto ---");
+            Console.WriteLine($"Nome: {nomeProduto}");
+            Console.WriteLine($"Preço: R$ {precoProduto}");
+            Console.WriteLine($"Estoque: {quantidadeEstoque} unidades");
+            Console.WriteLine($"Em Promoção: {estaEmPromocao}");
+        }
+    }
+}
