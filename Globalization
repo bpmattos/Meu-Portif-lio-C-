@@ -1,0 +1,28 @@
+using System;
+using System.Globalization;
+
+namespace compraValor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.Write("Qual o valor da sua compra? R$ ");
+            double valorCompra = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Você é cliente VIP? (sim/nao): ");
+            string tipoCliente = Console.ReadLine();
+
+            // A função do || é verificar se PELO MENOS UMA das condições é verdadeira
+            if (valorCompra > 500.00 || tipoCliente == "sim")
+            {
+                Console.WriteLine("Parabéns, você ganhou um brinde!");
+            }
+            else
+            {
+                Console.WriteLine("Nenhum brinde aplicado.");
+            }
+        }
+    }
+}
